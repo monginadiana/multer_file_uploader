@@ -1,0 +1,25 @@
+
+<!-- EJS stands for Embedded JavaScript, and it is a popular templating engine for Node.js applications. EJS allows you to embed JavaScript code directly into your HTML markup, making it easy to dynamically generate HTML content based on data that you pass in from your Node.js application. -->
+
+
+
+<!DOCTYPE html> -->
+<html>
+  
+<head>
+    <title>FILE UPLOAD DEMO</title>
+</head>
+  
+<body>
+    <h1>Single File Upload Demo</h1>
+   
+    <form action="/uploadProfilePicture" 
+      enctype="multipart/form-data" method="POST">
+      
+        <span>Upload Profile Picture:</span>  
+        <input type="file" name="mypic" required/> <br>
+        <input type="submit" value="submit"> 
+    </form>
+</body>
+  
+</html>
